@@ -47,6 +47,8 @@ Examples:
 
 To test the (2-sided) hypothesis mean 1 = mean 2  at the 95% level,  use tTest(sample1, sample2, 0.05). To test the (one-sided) hypothesis  mean 1 < mean 2 , at the 99% level, first verify that the measured  mean of sample 1 is less than the mean of sample 2 and then use tTest(sample1, sample2, 0.02)
 
+See: https://alvinalexander.com/java/jwarehouse/commons-math3-3.6.1/src/main/java/org/apache/commons/math3/stat/inference/TTest.java.shtml for additional information. 
+
 ## Results
 Using the data above we can obtain the following results: 
 
