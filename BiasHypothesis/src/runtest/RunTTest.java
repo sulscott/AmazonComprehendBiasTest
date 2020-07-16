@@ -13,9 +13,7 @@ import org.apache.commons.math3.util.FastMath;
 public class RunTTest {
 
     /**
-     * Performs a
-     * http://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm"
-     * two-sided t-test evaluating the null hypothesis that sample1
+     * Performs a two-sided t-test evaluating the null hypothesis that sample1
      * and sample2 are drawn from populations with the same mean,
      * with significance level alpha.  This test does not assume
      * that the subpopulation variances are equal.
@@ -23,7 +21,6 @@ public class RunTTest {
      * equal can be rejected with confidence 1 - alpha.
      *
      * Degrees of freedom are approximated using the
-     * http://www.itl.nist.gov/div898/handbook/prc/section3/prc31.htm
      * Welch-Satterthwaite approximation
      *
      * Examples:
@@ -37,12 +34,6 @@ public class RunTTest {
      * is less than the mean of sample 2 and then use
      * tTest(sample1, sample2, 0.02)
      *
-     * Usage Note:
-     *
-     * The validity of the test depends on the assumptions of the parametric
-     * t-test procedure, as discussed
-     * http://www.basic.nwu.edu/statguidefiles/ttest_unpaired_ass_viol.html
-     * here
      *
      * Preconditions:
      *
@@ -84,10 +75,7 @@ public class RunTTest {
      * equal  and it uses approximated degrees of freedom computed from the
      * sample data to compute the p-value.  The t-statistic used is as defined in
      * t(double[], double[]) and the Welch-Satterthwaite approximation
-     * to the degrees of freedom is used,
-     * as described
-     * <a href="http://www.itl.nist.gov/div898/handbook/prc/section3/prc31.htm">
-     * here.
+     * to the degrees of freedom is used.
      *
      * Usage Note:
      *
